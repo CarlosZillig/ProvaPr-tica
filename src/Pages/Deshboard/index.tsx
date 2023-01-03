@@ -1,6 +1,13 @@
+import Header from "../../Components/Header";
+import SideBar from "../../Components/SideBar";
+import './Deshboard.scss'
+
 const Deshboard = () => {
   return(
-    <h1 className={'titulo'}>Aqui sera o deshboard</h1>
+    <main>
+      <Header />
+      <SideBar />
+    </main>
   )
 }
 

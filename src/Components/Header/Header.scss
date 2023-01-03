@@ -1,0 +1,15 @@
+@import '../../Styles/variables';
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $dark-blue;
+  color: white;
+  padding: 1em;
+  grid-column:  span 2;
+  .header-list {
+    display: flex;
+    gap: 15px;
+  }
+}
