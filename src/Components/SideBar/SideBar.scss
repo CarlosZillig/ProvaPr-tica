@@ -2,5 +2,18 @@
 
 .sidebar-nav {
   background-color: $dark-blue;
-  height: 100vh;
+  height: 92.1vh;
+  padding: 0.5em;
+  //overflow-y: scroll;
+  /*
+  Se ouver necessidade de um scroll!
+    &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: $gray;
+  }*/
 }

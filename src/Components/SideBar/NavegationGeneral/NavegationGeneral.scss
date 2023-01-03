@@ -1,0 +1,32 @@
+@import '../../../Styles/variables';
+
+.navegation {
+  padding: 2em 0.5em 0 0.5em;
+  color: #fff;
+  .navegation-title {
+    font-weight: 500;
+  }
+ .navegation-list {
+  padding: 1em 0.8em;
+  .navegation-item {
+    padding: 1.2em 1em;
+    display: flex;
+    gap: 20px;
+    color: $gray;
+    border-radius: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    a {
+      text-decoration: none;
+      color: $gray;
+    }
+    &:hover {
+      background-color: $background;
+      color: $blue;
+      a {
+        color: $blue;
+      }
+    }
+  }
+ }
+}

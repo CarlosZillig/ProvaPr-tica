@@ -1,0 +1,42 @@
+@import '../../../Styles/variables';
+
+.card {
+  padding:  1em 2em;
+  display: flex;
+  width: 44%;
+  height: 200px;
+  gap: 3em;
+  align-items: center;
+  background-color: $dark-blue;
+  border-radius: 15px;
+  .card-chart--container {
+    .card-chart {
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      background-color: transparent;
+      border: 5px solid $blue;
+    }
+  }
+  .card-finance--container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    .card-finance {
+      font-size: 2em;
+      color: $blue;
+      padding: 0.2em 0;
+    }
+    .card-weekly-earnings {
+      color: #fff;
+      font-size: 0.9em;
+    }
+    .card-expand {
+      background-color: $background;
+      border-radius: 20px;
+      padding: 0.5em;
+      color: $blue;
+    }
+  }
+}

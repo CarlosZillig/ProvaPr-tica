@@ -2,7 +2,7 @@ import { FaFlagUsa } from 'react-icons/fa'
 import { AiOutlineSearch, AiOutlineUser } from 'react-icons/ai'
 import { HiOutlineUsers } from 'react-icons/hi'
 import { IoMdNotificationsOutline } from 'react-icons/io'
-import './Header.scss'
+import './Header.scss';
 
 const Header = () => {
   return(
